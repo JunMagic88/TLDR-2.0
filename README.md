@@ -34,7 +34,7 @@ python parse_to_txt.py
 3. Run this to start the summarisation. This should start a Chrome window. Do not try to login and allow it to close automatically. The summarised chunks are saved in **/TLDR-2.0** folder. When it runs into an error (e.g. due to rate limit), it will rotate to another agent and log the last text it tried to summarise in **gpt3_log**. Check the content and delete text from your .txt file in **/Texts** up to that point before running TLDR.py again
 ```python
 python TLDR.py
-
+```
 ## Custom Prompt 
 - You can change the prompt to your own by updating the **promp.txt** file.
 
